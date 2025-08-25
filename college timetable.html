@@ -1,0 +1,142 @@
+
+<!-- saved from url=(0047)http://127.0.0.1:5501/.vscode/time%20table.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title> college timetable </title>
+</head>
+
+<body>
+    <center><h1> 5 csb timetable </h1></center>
+    <table border="2" cellspacing="2" align="center">
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+<tbody><tr>
+    <td>
+    </td><td>8:55-9:55</td>
+    <td>9:55-10:45</td>
+ <td>10:45-11:05</td>
+  <td>11:05-12:00</td>
+   <td>12:00-1:00</td>
+    <td>1:00-2:00</td>
+     <td>2:00-2:55</td>
+      <td>2:55-3:50</td>
+       <td>3:50-4:45</td>
+</tr>
+
+<tr align="center">
+    <td> MONDAY</td>
+    <td> -</td>
+     <td>-</td>
+<td rowspan="6" bgcolor="yellow"> T<br> E<br> A
+</td><td>7L</td>
+<td>3L</td>
+<td rowspan="6" bgcolor="yellow">L<br>U<br>N<br>C<br>H
+</td><td>2L</td>
+<td>1L</td>
+<td>-</td>
+
+</tr><tr align="center">     
+  <td>TUESDAY</td>     
+  <td>2L</td>      
+  <td>3L</td>  
+  <td>1L</td> 
+  <td>5L</td> 
+  <td colspan="2" bgcolor="yellow">2P</td> 
+  <td>-</td> 
+</tr>
+
+<tr align="center">
+    <td> WEDNESDAY</td>
+    <td bgcolor="yellow">9P</td>
+     <td>7L</td>
+<td>5L</td>
+<td>3L</td>
+<td>2L</td>
+<td>8L</td>
+<td>-</td>
+
+     
+</tr><tr align="center">
+    <td> THURSDAY</td>
+    <td>5L</td>
+     <td>1L</td>
+     <td colspan="2" bgcolor="yellow">4P
+</td><td>7T</td>
+<td>3T</td>
+<td>-</td>
+
+
+</tr><tr align="center">
+    <td> FRIDAY</td>
+    <td bgcolor="yellow">9P
+     </td><td>3T</td>
+<td>7T</td>
+<td>1L</td>
+<td colspan="2">14L
+</td><td>-</td>
+
+     
+</tr><tr align="center">
+    <td> SATURDAY</td>
+    <td>11T</td>
+     <td>10T</td>
+<td>-</td>
+<td>-</td>
+<td colspan="2" bgcolor="yellow">6P
+</td><td>-</td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</tbody></table></body></html>
